@@ -1,4 +1,5 @@
-# Meal-Maker
+**# Meal-Maker**
+
 1. As a frequent diner, you love trying out new restaurants and experimenting with different foods. However, having to figure out what you want to order can be a time-consuming ordeal if the menu is big, and you want an easier way to be able to figure out what you are going to eat.  In this project, you’ll use JavaScript to randomly create a three-course meal based on what is available on a menu. We’ll keep running it until we’re satisfied with the generated meal!  If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.  Tasks 4/13 Complete Mark the tasks as complete by checking them off Meal Maker 1. Start by creating an empty menu object.   Hint const menu = {   }; 
 2. Add a _courses property to your menu object and set its value to an empty object. This property will ultimately contain a mapping between each course and the dishes available to order in that course.   Hint const menu = {     _courses: {} }; 
 3. Create three properties inside the _courses object called appetizers, mains, and desserts. Each one of these should initialize to an empty array.   Hint Here is what you would do for the appetizers, make sure to include the mains and desserts as well.  const menu = {   _courses: {     appetizers: [],     ...   } }; 
