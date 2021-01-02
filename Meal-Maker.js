@@ -55,6 +55,7 @@ const menu = {
   }
   
 
+  
 }
 menu.addDishToCourse('appetizers', 'soup', 4.25);
 menu.addDishToCourse('appetizers', 'crab', 8.95);
