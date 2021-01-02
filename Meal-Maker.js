@@ -78,3 +78,4 @@ menu.addDishToCourse('desserts', 'apple stroodle', 4.25);
 
 let meal = menu.generateRandomMeal();
 console.log(meal);
+
